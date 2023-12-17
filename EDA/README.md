@@ -1,1 +1,1 @@
-
+Essential Exploratory Data Analysis (EDA) has been conducted to gain a thorough understanding of the dataset. This crucial step involved in-depth analysis and visualization techniques to uncover patterns, trends, and key characteristics within the data. By performing necessary EDA, we have enhanced our insights into the dataset's structure and content, laying the groundwork for informed decision-making and subsequent modeling processes.
