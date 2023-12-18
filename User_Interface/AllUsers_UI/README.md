@@ -1,0 +1,3 @@
+The deployed recommendation feature offers personalized suggestions for both registered and guest users, enhancing their shopping experience based on individual purchase histories. Utilizing a validated KNN model integrated into the Flask application, users can receive tailored product recommendations. The user interface, as shown in figure, enables users to explore suggestions such as ”Customer Who Bought this also Bought,” providing relevant items similar to their initial product query
+
+<img width="1267" alt="Screenshot 2023-12-09 at 8 04 01 PM" src="https://github.com/Anitha-Balachandran/SmartReco-ECommerce-Recommender/assets/143915040/540a6ab7-c92c-4576-a9ac-be677f9ea8cb">
