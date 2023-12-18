@@ -1,0 +1,63 @@
+/* static/css/styles.css */
+
+body, html {
+    height: 100%;
+    margin: 0;
+}
+
+.bg {
+    /* The image used */
+    background-image: url('../images/image.png');
+
+    /* Full height */
+    height: 100%; 
+
+    /* Center and scale the image nicely */
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.input-group-append .btn {
+    border: 0;
+    background: transparent;
+}
+.recommendation-row {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: stretch; /* This makes sure all cards stretch to the height of the tallest one */
+}
+
+.recommendation-card {
+    flex: 1 0 calc(30% - 30px); /* Adjust the width as needed, accounting for margins */
+    display: flex;
+    flex-direction: column;
+    margin: 10px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    background-color: #fff;
+    height: 550px;
+    /* Don't set a fixed height; let flexbox handle it */
+}
+
+.card-content {
+    flex-grow: 1; /* This will push the footer down */
+    padding: 15px;
+    /* Add any other styling you need here */
+}
+
+.card-footer {
+    display: flex;
+    align-items: center; /* Center the price vertically */
+    justify-content: center; /* Center the price horizontally */
+    padding: 15px;
+    background-color: #f8f8f8; /* Differentiate the footer if needed */
+}
+
+.card-price {
+    font-weight: bold; /* Make the text bold */
+    display: flex;
+    justify-content: center; /* Center the content horizontally */
+    align-items: center; /* Center the content vertically */
+    height: 100%; /* Make the price container take up the full height of its parent */
+}
+
