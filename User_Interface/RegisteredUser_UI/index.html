@@ -1,0 +1,139 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Product Recommendation</title>
+    <!-- Bootstrap CSS -->
+    <link href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+
+    <style>
+        .recommendation-row {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.recommendation-card {
+    flex: 1 0 calc(20% - 20px); /* Adjust this to allow 5 cards per line, accounting for margins */
+    margin: 10px;
+    border: 1px solid #ccc; /* This adds a light grey border */
+    border-radius: 4px; /* Optional: Adds rounded corners to the border */
+    padding: 15px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: flex-start;
+    height: 230px;
+    background-color: #fff; /* Adds a white background to the cards */
+    box-shadow: 0 2px 5px rgba(0,0,0,.1); /* Optional: Adds a subtle shadow for depth */
+    justify-content: space-between; /* This centers all content vertically */
+    align-items: center; /* This centers all content horizontally */
+    text-align: center;
+}
+
+
+
+/* Ensure title and price have consistent styles */
+.recommendation-title {
+    color: black;
+    margin-bottom: 10px;
+    text-align: center; /* Add some space below the title */
+}
+
+.recommendation-price {
+    color: black;
+    font-weight: bold;
+    align-self: center; /* Center price horizontally */
+    width: 100%; /* Ensure full width to align prices */
+    text-align: center; /* Center text for the price */
+}
+body {
+            background: url("{{ url_for('static', filename='images/image15.png') }}") no-repeat center center fixed;
+
+            background-size: cover;
+            margin: 0;
+            padding: 0;
+            height: 100%;
+            overflow: auto;
+        }
+        .content {
+            background-color: rgba(255, 255, 255, 0.8); /* Slight white overlay */
+            margin: 10px;
+            padding: 10px;
+        }
+        h2, h3 {
+    color: black;
+}
+
+        .content-container {
+            display: flex;
+            justify-content: flex-end; /* Align children to the right */
+            background: url('path-to-your-image.jpg') no-repeat left center;
+            background-size: cover;
+            min-height: 400px; /* Adjust height as needed */
+        }
+
+        .recommendations {
+            width: 40%; /* Adjust width as needed */
+            padding: 20px;
+            background: rgba(255, 255, 255, 0.9); /* Semi-transparent white */
+            height: 100%;
+            box-sizing: border-box; /* Include padding in width */
+        }
+        .card-price {
+    font-weight: bold; /* Make the text bold */
+    display: flex;
+    justify-content: center; /* Center the content horizontally */
+    align-items: center; /* Center the content vertically */
+    height: 100%; /* Make the price container take up the full height of its parent */
+}
+    </style>
+   
+
+</head>
+
+<body>
+    <div class="container">
+        <h2 class="mt-4 text-center">Bespoke Beauty Recommendations</h2>
+                <form action="/prodrecommend" method="post" class="mb-4">
+            <div class="input-group mb-3">
+                <div class="input-group-prepend">
+                    <label class="input-group-text" for="user_id">Enter User ID:</label>
+                </div>
+                <select class="custom-select" id="user_id" name="user_id">
+    <option selected>Choose...</option>
+    <option value="A2GI8X394RLF83">A2GI8X394RLF83</option>
+    <option value="A1G60ANYI0HMEU">A1G60ANYI0HMEU</option>
+    <option value="A9BM5GD4ASCMD">A9BM5GD4ASCMD</option>
+    <option value="A2CA0CFUZS89OG">A2CA0CFUZS89OG</option>
+    <option value="AUKZY2RN7AIGM">AUKZY2RN7AIGM</option>
+</select>
+
+<div class="input-group-append">
+                 <button class="btn btn-outline-secondary" type="submit">
+                    <i class="fa fa-search"></i> Search
+                </button>
+            </div>
+        </form>
+        <div id="recommendations">
+            {% if user %}
+            <h3 class="text-center mb-4">Top picks for you</h3>
+            <h6 class="text-center mb-4">Recommendations for User: {{ user }}</h6>
+                <div class="recommendation-row">
+                    {% for item in items %}
+                        <div class="recommendation-card">
+                            <div class="card-content">
+                                <div class="card-title">{{ item.title }}</div>
+                            </div>
+                            <div class="card-footer">
+                                <div class="card-price">{{ item.price }}</div>
+                            </div>
+                        </div>
+                    {% endfor %}
+                </div>
+            {% endif %}
+        </div>
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.bundle.min.js"></script>
+</body>
+
+    </html>
