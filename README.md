@@ -5,6 +5,7 @@ In the rapidly evolving e-commerce landscape, this project responds to the growi
 
 
 ### Description: Developed recommendation systems for e-commerce, including "Products Similar to this item," "Top Picks for You," and "Customer who bought this item also bought."
+<img width="760" alt="image" src="https://github.com/Anitha-Balachandran/SmartReco-ECommerce-Recommender/assets/143915040/cdebc8c3-4852-40f7-941c-db6d984b72c3">
 
 ## Products Similar to this item:
 
@@ -18,7 +19,7 @@ Differentiation: Utilizes category-specific filtering for enhanced relevance and
 
 Performance Metrics: Accuracy, Precision, Recall, F1-Score, Confusion Matrix
 
-<img width="760" alt="image" src="https://github.com/Anitha-Balachandran/SmartReco-ECommerce-Recommender/assets/143915040/cdebc8c3-4852-40f7-941c-db6d984b72c3">
+<img width="1010" alt="image" src="https://github.com/Anitha-Balachandran/SmartReco-ECommerce-Recommender/assets/143915040/c43fc6dc-b048-431d-9c41-7853fb6f1e82">
 
 
 ## Top Picks for You:
@@ -31,7 +32,7 @@ Loss Optimization Functions: Includes Logistic, BPR, and WARP
 
 Performance Metrics: Precision at k, AUC
 
-<img width="1010" alt="image" src="https://github.com/Anitha-Balachandran/SmartReco-ECommerce-Recommender/assets/143915040/c43fc6dc-b048-431d-9c41-7853fb6f1e82">
+<img width="1010" alt="image" src="https://github.com/Anitha-Balachandran/SmartReco-ECommerce-Recommender/assets/143915040/65ec9936-c95f-4802-a7ba-fb96dd4e7309">
 
 
 ## Customer who bought this item also bought:
@@ -44,7 +45,7 @@ Recommendation Process: Recommends k most similar items based on item-item simil
 
 Benefit: Effective in sparse datasets or limited user-item interactions
 
-<img width="1010" alt="image" src="https://github.com/Anitha-Balachandran/SmartReco-ECommerce-Recommender/assets/143915040/65ec9936-c95f-4802-a7ba-fb96dd4e7309">
+<img width="987" alt="image" src="https://github.com/Anitha-Balachandran/SmartReco-ECommerce-Recommender/assets/143915040/017f27f7-da4e-4e41-8eac-9390a85cd74a">
 
 #### Impact: Improved user engagement and satisfaction through personalized product recommendations based on user behavior and item similarities.
 
