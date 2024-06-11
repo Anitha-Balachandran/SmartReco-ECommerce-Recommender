@@ -4,7 +4,7 @@
 In the rapidly evolving e-commerce landscape, this project responds to the growing demand for personalized recommendation systems, specifically within the luxury beauty market. Leveraging advanced machine learning algorithms, the objective is to create a recommendation system that aligns with users' unique preferences, contributing to increased satisfaction and engagement. The project addresses challenges in the e-commerce sector by delivering personalized product recommendations through category classification, collaborative filtering, and the k-NN algorithm. Three distinct workflows cater to Guest Users, Registered Users, and both, ensuring inclusivity and overcoming the "cold start" problem. The project evaluates models for performance metrics, enhancing the overall shopping experience with relevant and context-aware recommendations. This innovative solution transforms the way users discover and engage with products in the luxury beauty e-commerce sector.
 
 
-# Description: Developed recommendation systems for e-commerce, including "Products Similar to this item," "Top Picks for You," and "Customer who bought this item also bought."
+# Description: ### Developed recommendation systems for e-commerce, including "Products Similar to this item," "Top Picks for You," and "Customer who bought this item also bought."
 
 ## Products Similar to this item:
 
