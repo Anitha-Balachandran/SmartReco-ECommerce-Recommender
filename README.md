@@ -24,23 +24,31 @@ Performance Metrics: Accuracy, Precision, Recall, F1-Score, Confusion Matrix
 ## Top Picks for You:
 
 Algorithm: LightFM (Collaborative filtering and content-based blending)
+
 Matrix Factorization: Learns latent factors for users and items from the interaction matrix
+
 Loss Optimization Functions: Includes Logistic, BPR, and WARP
+
 Performance Metrics: Precision at k, AUC
+
 <img width="1010" alt="image" src="https://github.com/Anitha-Balachandran/SmartReco-ECommerce-Recommender/assets/143915040/c43fc6dc-b048-431d-9c41-7853fb6f1e82">
 
 
 ## Customer who bought this item also bought:
 
 Algorithm: k-Nearest Neighbors (kNN)
+
 Similarity Calculation: Cosine similarity on tokenized vectors from 'also_bought' and 'also_viewed' product metadata
+
 Recommendation Process: Recommends k most similar items based on item-item similarity
+
 Benefit: Effective in sparse datasets or limited user-item interactions
+
 <img width="1010" alt="image" src="https://github.com/Anitha-Balachandran/SmartReco-ECommerce-Recommender/assets/143915040/65ec9936-c95f-4802-a7ba-fb96dd4e7309">
 
-Impact: Improved user engagement and satisfaction through personalized product recommendations based on user behavior and item similarities.
+## Impact: Improved user engagement and satisfaction through personalized product recommendations based on user behavior and item similarities.
 
-Results: Achieved high accuracy and precision in suggesting relevant products to users, enhancing the overall shopping experience.
+## Results: Achieved high accuracy and precision in suggesting relevant products to users, enhancing the overall shopping experience.
 
 
 
