@@ -9,10 +9,15 @@ In the rapidly evolving e-commerce landscape, this project responds to the growi
 ## Products Similar to this item:
 
 Algorithm: Ensemble Classification Model (XGBoost, SVM, Multinomial Naive Bayes, Random Forest, Logistic Regression)
+
 Similarity Calculation: Cosine similarity on tokenized vectors from user query and product metadata (product_title, product_description)
+
 Recommendation Process: Filters products by predicted category and ranks them based on similarity to user query
+
 Differentiation: Utilizes category-specific filtering for enhanced relevance and precision compared to keyword-based search
+
 Performance Metrics: Accuracy, Precision, Recall, F1-Score, Confusion Matrix
+
 <img width="760" alt="image" src="https://github.com/Anitha-Balachandran/SmartReco-ECommerce-Recommender/assets/143915040/cdebc8c3-4852-40f7-941c-db6d984b72c3">
 
 
