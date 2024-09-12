@@ -47,7 +47,7 @@ Benefit: Effective in sparse datasets or limited user-item interactions
 
 <img width="987" alt="image" src="https://github.com/Anitha-Balachandran/SmartReco-ECommerce-Recommender/assets/143915040/017f27f7-da4e-4e41-8eac-9390a85cd74a">
 
-#### Impact: Improved user engagement and satisfaction through personalized product recommendations based on user behavior and item similarities.
+#### Impact: This can be used to improve user engagement and satisfaction through personalized product recommendations based on user behavior and item similarities.
 
 #### Results: Achieved high accuracy and precision in suggesting relevant products to users, enhancing the overall shopping experience.
 
